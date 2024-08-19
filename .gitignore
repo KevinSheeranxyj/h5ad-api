@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -23,3 +24,25 @@ go.work.sum
 
 # env file
 .env
+=======
+### 编辑器
+.vscode/*
+.idea/*
+
+
+### 临时文件
+json/*
+*.log
+.DS_Store
+
+
+### 环境变量
+.env
+go.sum
+
+### 编译
+# *_test.go
+h5ad
+# *.pem
+nohup.out
+>>>>>>> main
